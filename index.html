@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Name | Data Analyst</title>
+    <meta name="description"
+        content="Data analyst portfolio: Weather API dashboard, Zomato data analysis and pizza sales dashboard.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Sora:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="i-github" viewBox="0 0 24 24">
+            <path
+                d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z" />
+        </symbol>
+        <symbol id="i-linkedin" viewBox="0 0 24 24">
+            <path
+                d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z" />
+        </symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24">
+            <path d="M3 6h18v12H3zM3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linejoin="round" />
+        </symbol>
+    </svg>
+
+    <header class="topbar">
+        <div class="wrap bar">
+            <a class="logo" href="#top">Utsav Kant Jha</a>
+            <nav id="nav" aria-label="Main">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="bar-actions">
+                <button class="icon-btn" id="theme" type="button" aria-label="Switch colour theme">Light</button>
+                <a class="btn ghost small" href="/images//Utsav_Resume .pdf1.pdf" download>Resume</a>
+                <button class="icon-btn menu" id="menu" type="button" aria-expanded="false"
+                    aria-label="Toggle menu">Menu</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="top">
+
+        <!-- HERO -->
+        <section class="wrap hero">
+            <div class="hero-text">
+                <p class="pill"><span class="dot"></span> Open to data analyst roles</p>
+                <h1>I turn raw data into decisions people can act on.</h1>
+                <p class="lead">I'm a data analyst who cleans messy datasets, writes SQL and Python to answer business
+                    questions, and builds dashboards that make the answers easy to see.</p>
+                <div class="actions">
+                    <a class="btn" href="#projects">View projects</a>
+                    <a class="btn ghost" href="/images//Utsav_Resume .pdf1.pdf" download>Download resume</a>
+                </div>
+                <div class="socials">
+                    <a class="social-btn" href="https://linkedin.com/in/utsav-kant-jha-211a55333" target="_blank"
+                        rel="noopener" aria-label="LinkedIn profile"><svg aria-hidden="true">
+                            <use href="#i-linkedin" />
+                        </svg><span>LinkedIn</span></a>
+                    <a class="social-btn" href="https://github.com/utsavkant4" target="_blank" rel="noopener"
+                        aria-label="GitHub profile"><svg aria-hidden="true">
+                            <use href="#i-github" />
+                        </svg><span>GitHub</span></a>
+                    <a class="social-btn" href="mailto:utsavkant4@gmail.com" aria-label="Send an email"><svg
+                            aria-hidden="true">
+                            <use href="#i-mail" />
+                        </svg><span>Email</span></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-card">
+                    <div class="image-frame">
+                        <img src="./images/logo.jpeg" alt="Modern data analytics workspace" width="720" height="820">
+                    </div>
+                    <div class="floating-stat stat-top">
+                        <span class="stat-icon">↗</span>
+                        <div><strong>Data → Insight</strong><small>Analytics workflow</small></div>
+                    </div>
+                    <div class="floating-stat stat-bottom">
+                        <span class="mini-bars"><i></i><i></i><i></i><i></i></span>
+                        <div><strong>SQL · Python · BI</strong><small>Tools I work with</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="block" aria-labelledby="about-h">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2 id="about-h">About me</h2>
+                </div>
+                <div class="card prose">
+                    <p>I'm Utsav Kant Jha, a data analyst based in Patna Bihar. I enjoy finding the story inside a
+                        dataset: what changed, why it changed, and what to do next.</p>
+                    <p>My work covers the full path from raw data to a finished dashboard: collecting data from APIs and
+                        files, cleaning it, storing it in a database, analysing it and presenting it clearly.</p>
+                    <p>I am BCA final year student looking for internship and jobs </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="block" aria-labelledby="skills-h">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2 id="skills-h">Skills</h2>
+                </div>
+                <div class="skill-grid">
+                    <div class="card">
+                        <h3>Querying and programming</h3>
+                        <ul class="tags">
+                            <li>SQL</li>
+                            <li>Python</li>
+                            <li>Joins and subqueries</li>
+                            <li>Window functions</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Data cleaning and preparation</h3>
+                        <ul class="tags">
+                            <li>Pandas</li>
+                            <li>NumPy</li>
+                            <li>Power Query</li>
+                            <li>Missing values</li>
+                            <li>Removing duplicates</li>
+                            <li>Data validation</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Statistics</h3>
+                        <ul class="tags">
+                            <li>Descriptive statistics</li>
+                            <li>Probability</li>
+                            <li>Hypothesis testing</li>
+                            <li>Correlation</li>
+                            <li>Regression</li>
+                            <li>A/B testing</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Visualisation and reporting</h3>
+                        <ul class="tags">
+                            <li>Power BI</li>
+                            <li>Tableau</li>
+                            <li>Matplotlib</li>
+                            <li>Seaborn</li>
+                            <li>Excel charts</li>
+                            <li>Dashboard design</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Excel and spreadsheets</h3>
+                        <ul class="tags">
+                            <li>Pivot tables</li>
+                            <li>XLOOKUP / VLOOKUP</li>
+                            <li>Formulas</li>
+                            <li>Conditional formatting</li>
+                            <li>Macros</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Databases and tools</h3>
+                        <ul class="tags">
+                            <li>PostgreSQL</li>
+                            <li>MySQL</li>
+                            <li>REST APIs and JSON</li>
+                            <li>Jupyter Notebook</li>
+                            <li>Git and GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Business and communication</h3>
+                        <ul class="tags">
+                            <li>Data storytelling</li>
+                            <li>Problem solving</li>
+                            <li>Critical thinking</li>
+                            <li>Domain knowledge</li>
+                            <li>Attention to detail</li>
+                            <li>Stakeholder communication</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="block" aria-labelledby="projects-h">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2 id="projects-h">Projects</h2>
+                </div>
+                <div class="project-grid">
+
+                    <article class="card project">
+                        <div class="thumb">
+                            <svg viewBox="0 0 160 90" role="img" aria-label="Line chart preview">
+                                <polyline points="5,70 30,52 55,60 80,30 105,40 130,18 155,25" fill="none"
+                                    stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3>Weather API Live Dashboard<span class="status">In progress</span></h3>
+                        <p>A pipeline that pulls live weather data from an API, stores it in a database and shows it in
+                            an interactive dashboard.</p>
+                        <ul class="pts">
+                            <li>Collected weather data from the API and saved it as CSV files</li>
+                            <li>Loads the data into PostgreSQL for storage and querying</li>
+                            <li>Power BI dashboard with a city slicer and KPI cards on real data</li>
+                        </ul>
+                        <ul class="tags">
+                            <li>Python</li>
+                            <li>Weather API</li>
+                            <li>PostgreSQL</li>
+                            <li>Power BI</li>
+                        </ul>
+                        <div class="links"><a href="#">GitHub</a><a href="#">Live dashboard</a></div>
+                    </article>
+
+                    <article class="card project">
+                        <div class="thumb">
+                            <svg viewBox="0 0 160 90" role="img" aria-label="Bar chart preview">
+                                <g fill="currentColor">
+                                    <rect x="5" y="8" width="140" height="14" rx="4" />
+                                    <rect x="5" y="30" width="105" height="14" rx="4" opacity=".8" />
+                                    <rect x="5" y="52" width="80" height="14" rx="4" opacity=".6" />
+                                    <rect x="5" y="74" width="50" height="14" rx="4" opacity=".4" />
+                                </g>
+                            </svg>
+                        </div>
+                        <h3>Zomato Data Analysis</h3>
+                        <p>An exploratory analysis of restaurant data to understand what drives ratings, pricing and
+                            customer choices.</p>
+                        <ul class="pts">
+                            <li>Cleaned the dataset: duplicates, missing values and inconsistent formats</li>
+                            <li>Compared ratings, cost for two and online ordering across restaurant types</li>
+                            <li>[Add your key finding here]</li>
+                        </ul>
+                        <ul class="tags">
+                            <li>Python</li>
+                            <li>Pandas</li>
+                            <li>Matplotlib</li>
+                            <li>Seaborn</li>
+                        </ul>
+                        <div class="links"><a href="#">GitHub</a><a href="#">Notebook</a></div>
+                    </article>
+
+                    <article class="card project">
+                        <div class="thumb">
+                            <svg viewBox="0 0 160 90" role="img" aria-label="Column chart preview">
+                                <g fill="currentColor">
+                                    <rect x="8" y="50" width="20" height="32" rx="4" opacity=".55" />
+                                    <rect x="38" y="30" width="20" height="52" rx="4" opacity=".55" />
+                                    <rect x="68" y="42" width="20" height="40" rx="4" opacity=".55" />
+                                    <rect x="98" y="14" width="20" height="68" rx="4" />
+                                    <rect x="128" y="36" width="20" height="46" rx="4" opacity=".55" />
+                                </g>
+                            </svg>
+                        </div>
+                        <h3>Pizza Sales Analysis Dashboard</h3>
+                        <p>A sales dashboard that shows revenue, orders and best-selling pizzas so a manager can see
+                            performance at a glance.</p>
+                        <ul class="pts">
+                            <li>KPIs for total revenue, orders, average order value and pizzas sold</li>
+                            <li>Trends by day, hour and month to show the busiest times</li>
+                            <li>Breakdown by pizza category, size and top and bottom sellers</li>
+                        </ul>
+                        <ul class="tags">
+                            <li>SQL</li>
+                            <li>Power BI</li>
+                            <li>DAX</li>
+                        </ul>
+                        <div class="links"><a href="#">GitHub</a><a href="#">Live dashboard</a></div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="block" aria-labelledby="contact-h">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2 id="contact-h">Contact</h2>
+                    <p>I'm open to data analyst roles and freelance projects. Send a message and I'll reply soon.</p>
+                </div>
+                <div class="contact">
+                    <div class="card">
+                        <dl>
+                            <dt>Email</dt>
+                            <dd><a href="mailto:utsavkant4@gmail.com">utsavkant4@gmail.com</a></dd>
+                            <dt>LinkedIn</dt>
+                            <dd><a href="https://linkedin.com/in/utsav-kant-jha-211a55333">utsav-kant-jha-211a55333</a>
+                            </dd>
+                            <dt>GitHub</dt>
+                            <dd><a href="https://github.com/utsavkant4">utsavkant4</a></dd>
+                            <dt>Resume</dt>
+                            <dd><a href="/images/Utsav_Resume .pdf1.pdf" download>Download resume (PDF)</a></dd>
+                        </dl>
+                        <div class="socials">
+                            <a class="social-btn" href="https://linkedin.com/in/utsav-kant-jha-211a55333"
+                                target="_blank" rel="noopener" aria-label="LinkedIn profile"><svg aria-hidden="true">
+                                    <use href="#i-linkedin" />
+                                </svg><span>LinkedIn</span></a>
+                            <a class="social-btn" href="https://github.com/utsavkant4" target="_blank" rel="noopener"
+                                aria-label="GitHub profile"><svg aria-hidden="true">
+                                    <use href="#i-github" />
+                                </svg><span>GitHub</span></a>
+                        </div>
+                    </div>
+                    <form class="card" action="utsavkant4@gmail.com" method="post" enctype="text/plain">
+                        <label>Name<input type="text" name="name" required autocomplete="name"></label>
+                        <label>Email<input type="email" name="email" required autocomplete="email"></label>
+                        <label>Message<textarea name="message" required></textarea></label>
+                        <button class="btn" type="submit">Send message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <span>&copy; <span id="yr">2026</span> Your Name. Data analyst.</span>
+            <div class="socials">
+                <a class="social-btn" href="https://linkedin.com/in/utsav-kant-jha-211a55333" target="_blank"
+                    rel="noopener" aria-label="LinkedIn profile"><svg aria-hidden="true">
+                        <use href="#i-linkedin" />
+                    </svg><span>LinkedIn</span></a>
+                <a class="social-btn" href="https://github.com/utsavkant4" target="_blank" rel="noopener"
+                    aria-label="GitHub profile"><svg aria-hidden="true">
+                        <use href="#i-github" />
+                    </svg><span>GitHub</span></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var root = document.documentElement, themeBtn = document.getElementById('theme'),
+            nav = document.getElementById('nav'), menuBtn = document.getElementById('menu');
+        var saved = null; try { saved = localStorage.getItem('theme') } catch (e) { }
+        if (!saved && window.matchMedia('(prefers-color-scheme: light)').matches) saved = 'light';
+        function setTheme(t) { root.dataset.theme = t; themeBtn.textContent = t === 'dark' ? 'Light' : 'Dark'; try { localStorage.setItem('theme', t) } catch (e) { } }
+        setTheme(saved || 'dark');
+        themeBtn.addEventListener('click', function () { setTheme(root.dataset.theme === 'dark' ? 'light' : 'dark') });
+        menuBtn.addEventListener('click', function () { var o = nav.classList.toggle('open'); menuBtn.setAttribute('aria-expanded', o) });
+        nav.addEventListener('click', function () { nav.classList.remove('open'); menuBtn.setAttribute('aria-expanded', 'false') });
+        document.getElementById('yr').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
